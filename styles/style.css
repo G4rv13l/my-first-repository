@@ -1,0 +1,46 @@
+
+/*Polices du site*/
+@font-face {
+    font-family: 'CheddarGothicRough', Tahoma, Arial, Helvetica, sans-serif;
+    src: url('fonts/CheddarGothicRough-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Pour éviter le FOIT (flash de texte invisible) */
+}
+
+/* Style global pour le body */
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #14213D;
+    font-family: 'CheddarGothicRough', Tahoma, Arial, Helvetica, sans-serif;
+    color: #E5E5E5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;    /* garde les proportions */
+    display: block;
+}
+
+h1 {
+    color : #FCA311;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    color : #FCA311;
+    font-size: 1.5em;
+}
+
+li {
+    letter-spacing: 0.5px;
+    margin: 10px;
+}
+
+
+
+
+
